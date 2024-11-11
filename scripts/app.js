@@ -32,7 +32,7 @@ btn.addEventListener('click', () => { // ootab klikki, läheb edasi
     url('${posterUrlInput}')`;
     //css-i omadused on kättesaadavad js-ile. backtick ` tekstiline muutuja (string), võtab muutujasse salvestatud andmed
     movieTitle.value = ''; // teeb lahtri tühjaks
-    moviePosterUrl = '';
-    movieReleaseYear = ''; // Ilmumisaasta
+    moviePosterUrl.value = '';
+    movieReleaseYear.value = ''; // Ilmumisaasta
 
 });
