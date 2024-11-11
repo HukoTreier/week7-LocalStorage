@@ -10,6 +10,10 @@
  font-family: "Lato", sans-serif;
 }
 
+body {
+    background: #f0f0f0; /* Taustavärv */
+}
+
 .container {
     height: 300px;
     width: 300px;
@@ -37,12 +41,12 @@
 }
 
 .container h3 {
-    margin: 2rem;
+    margin: 1.6rem;
     color: aliceblue;
     text-transform: capitalize; /* suurte tähtedega */
 }
 
 .container p {
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
